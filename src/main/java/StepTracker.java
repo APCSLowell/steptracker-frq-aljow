@@ -31,6 +31,6 @@ public class StepTracker {
   for(int i = 0; i < arr.size(); i++) {
    stepAverage += arr.get(i);
   }
+  return stepAverage/arr.size();
  }
- return (double) stepAverage/arr.size();
 } 

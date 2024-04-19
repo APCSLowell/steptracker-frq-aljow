@@ -32,5 +32,5 @@ public class StepTracker {
    stepAverage += arr.get(i);
   }
  }
- return stepAverage/arr.size();
+ return (double) stepAverage/arr.size();
 } 

@@ -25,6 +25,9 @@ public class StepTracker {
  }
  public double averageSteps() {
   double stepAverage = 0.0;
+  if (arr.size() == 0) {
+   return stepAverage;
+  }
   for(int i = 0; i < arr.size(); i++) {
    stepAverage += arr.get(i);
   }
